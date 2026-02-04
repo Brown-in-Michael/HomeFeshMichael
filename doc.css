@@ -439,3 +439,19 @@ footer {
      padding: 0px 10px 10px 10px;
      background-color: var(--head-bg-color);
 }
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--head-bg-color);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 20px;
+}

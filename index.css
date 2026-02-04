@@ -505,6 +505,23 @@ footer{
     background-color: var(--head-bg-color);
 }
 
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--head-bg-color);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    border-radius: 20px;
+}
+
 /* responsive */
 @media (max-width: 500px) {
 nav{
