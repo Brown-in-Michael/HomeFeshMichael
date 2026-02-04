@@ -83,7 +83,6 @@ body{
     background-color: var(--bg-color);    
     z-index: -1;
     position: relative;
-    border: red solid 1px;
 }
 
 
