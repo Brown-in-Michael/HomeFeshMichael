@@ -369,8 +369,8 @@ header {
 .conclusion{
      display: flex;
      flex-direction: row;
-     justify-content: space-between;
-     gap: 20px;
+     justify-content: center;
+     gap: 40px;
      div{
           max-width: 500px;
           max-height: 700px;
