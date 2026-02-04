@@ -27,7 +27,7 @@ h2 {
      font-family: "Krona One";
      justify-self: anchor-center;
      font-size: 32px;
-     padding-bottom: 20px;
+     padding-bottom: 40px;
      color: var(--texte-color);
 }
 
@@ -41,6 +41,9 @@ p {
      font-size: 20px;
      color: var(--texte-color);
 }
+li{
+    font-size: 17px;
+}
 a{
     text-decoration: none;
     color: var(--texte-color);
@@ -49,12 +52,14 @@ a{
     background-color: var(--main-color);
     border-radius: 50px;
     font-family: "Poppins";
-    color: var(--bg-color);
+    color: var(--texte-color);
     display: inline-block;
     padding: 12px 35px;
         width: fit-content;
 }
-
+.function{
+    padding: 80px 0px;
+}
 /* Container Settings */
 .container {
      padding: 10px 40px;
@@ -67,7 +72,7 @@ body {
 }
 
 .padding-section {
-     padding: 24px 24px;
+     padding: 84px 24px;
 }
 
 /* Navbar */
@@ -129,12 +134,16 @@ header {
           font-size: 30px;
           font-family: "Poppins";
           font-weight: 400;
+          font-size: 25px;
      }
 }
 
 .goal{
      div{
           text-align: center;
+          p{
+            font-size: 23px;
+          }
      }
 }
 
@@ -208,7 +217,7 @@ header {
      flex-direction: column;
      background-color: var(--bg-color);
      gap: 15px;
-     border: #00ccaa0d solid 2px;
+     border: #00ccaa47 solid 2px;
      border-radius: 20px;
      box-shadow: #0000000a 0px 0px 5px 5px;
      padding: 15px 15px;
@@ -273,14 +282,15 @@ header {
 .technologie{
      position: relative;
     z-index: -1;
+    padding: 80px 0px;
 }
 .cardstechno{
      display: flex;
      flex-direction: row;
      justify-content: space-between;
      div{
-          border-bottom: #00ccaa0d solid 2px;
-          border-left: #00ccaa0d solid 2px;
+          border-bottom: #00ccaa solid 2px;
+          border-left: #00ccaa solid 2px;
           padding: 10px;
           box-shadow: #0000000a 0px 0px 5px 5px;
           background-color: var(--bg-color);
@@ -359,11 +369,23 @@ header {
 .conclusion{
      display: flex;
      flex-direction: row;
+     justify-content: space-between;
      gap: 20px;
      div{
-          min-width: 500px;
+          max-width: 500px;
+          max-height: 700px;
+          border: 2px solid #00ccaa0d;
+          border-radius: 20px;
+          box-shadow: #0000000a 0px 0px 5px 5px;
           text-align: start;
+          padding: 10px 20px;
      }
+}
+.colors{
+    padding: 80px 0px;
+}
+#space{
+    padding: 100px 0px;
 }
 /* Footer */
 

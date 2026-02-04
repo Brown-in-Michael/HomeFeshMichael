@@ -50,7 +50,7 @@ strong{
     background-color: var(--main-color);
     border-radius: 50px;
     font-family: "Poppins";
-    color: var(--bg-color);
+    color: var(--texte-color);
     display: inline-block;
     padding: 12px 35px;
         width: fit-content;
